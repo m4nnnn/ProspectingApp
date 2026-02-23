@@ -1,1 +1,45 @@
 @import "tailwindcss";
+
+header{
+    background-color: #673A6B;
+    width: 100%;
+}
+.HeaderImg{
+    height: 3rem;
+    width: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-self: flex-end;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #673A6B;
+}
+
+.LogDiv{
+    border: solid black 1px;
+    justify-self: center;
+    padding: 1rem;
+    margin: 2rem;
+}
+.Log-input{
+    width: 90%;
+    background-color: #E2CEFF;
+    border: none;
+}
+
+
+.Log-link{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Log-btn{
+    background-color: #EDE7F9;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
