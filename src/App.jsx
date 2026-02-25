@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import './main'
+import DashBoardPage from './pages/DashBoardpage'
+
 function App() {
 const login = document.querySelector('.HeaderImg')
 const quit = document.querySelectorAll('.Log-btn') 
@@ -19,8 +21,10 @@ quit.forEach (l => {
 })
 
 
-} 
- 
-
+  return (
+    
+    <DashBoardPage/>
+  )
+}
 
 export default App
