@@ -1,29 +1,21 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
 import './main'
-import DashBoardPage from './pages/DashBoardpage'
+import DashBoardPage from './pages/DashBoardPage'
+import HeaderPage from './pages/HeaderPage'
+import FooterPage from './pages/FooterPage'
 
 function App() {
-const login = document.querySelector('.HeaderImg')
-const quit = document.querySelectorAll('.Log-btn') 
-const visible = document.querySelector('.LogFull')
 
-login.addEventListener('click', () => {
-    visible.style.display = 'flex'
-})
-
-quit.forEach (l => {
-    l.addEventListener('click', () => {
-        visible.style.display = 'none'
-    } )
-})
 
 
   return (
-    
+    <section>
+    <HeaderPage/>
     <DashBoardPage/>
+    <FooterPage/>
+    </section>
   )
 }
 
